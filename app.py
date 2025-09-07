@@ -34,7 +34,7 @@ emotions = {
     "08": "surprised"
 }
 
-dataset_path = r"D:\Coding\Internship 3-Months\Task 2\Audio_Speech_Actors_01-24"
+dataset_path = r"D:\Coding\Internship 3-Months\Task 2\Audio_Speech_Actors_01-24" # Replace with Dataset Path
 n_mfcc, max_len = 40, 173
 
 # -----------------------
@@ -184,3 +184,4 @@ if st.button("🚀 Train & Evaluate"):
     sns.heatmap(cm, annot=True, fmt="d", cmap="coolwarm",
                 xticklabels=le.classes_, yticklabels=le.classes_)
     st.pyplot(fig)
+
