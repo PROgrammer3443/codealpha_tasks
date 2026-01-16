@@ -20,7 +20,8 @@ This task applies classification techniques to assess credit risk based on featu
 ### Run Instructions
 ```bash
 cd CodeAlpha_CreditScoringModel
-streamlit run App.py```
+streamlit run App.py
+
 Task 2: Emotion Recognition from Speech
 Directory: CodeAlpha_EmotionRecognitionFromSpeech
 
@@ -42,7 +43,8 @@ Run Instructions
 ```bash
 Copy code
 cd CodeAlpha_EmotionRecognitionFromSpeech
-streamlit run App.py```
+streamlit run App.py
+
 Task 3: Handwritten Character Recognition
 Directory: CodeAlpha_HandwrittenCharacterRecognition
 
@@ -63,7 +65,8 @@ Run Instructions
 ```bash
 Copy code
 cd CodeAlpha_HandwrittenCharacterRecognition
-streamlit run App.py```
+streamlit run App.py
+
 Requirements
 Common dependencies include:
 
