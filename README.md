@@ -65,20 +65,20 @@ streamlit run App.py
 ### Requirements
 Common dependencies include:
 
-Python 3.x
+- Python 3.x
 
-streamlit
+- streamlit
 
-numpy
+- numpy
 
-pandas
+- pandas
 
-scikit-learn
+- scikit-learn
 
-tensorflow / keras
+- tensorflow / keras
 
-librosa (Task 2)
+- librosa (Task 2)
 
-pillow
+- pillow
 
 Install required packages using pip as needed.
