@@ -20,7 +20,7 @@ This task applies classification techniques to assess credit risk based on featu
 ### Run Instructions
 ```bash
 cd CodeAlpha_CreditScoringModel
-streamlit run App.py
+streamlit run App.py```
 Task 2: Emotion Recognition from Speech
 Directory: CodeAlpha_EmotionRecognitionFromSpeech
 
@@ -39,10 +39,10 @@ https://zenodo.org/records/1188976
 After downloading, extract the contents and place them in the directory structure expected by the application.
 
 Run Instructions
-bash
+```bash
 Copy code
 cd CodeAlpha_EmotionRecognitionFromSpeech
-streamlit run App.py
+streamlit run App.py```
 Task 3: Handwritten Character Recognition
 Directory: CodeAlpha_HandwrittenCharacterRecognition
 
@@ -60,10 +60,10 @@ mnist_model.h5 – Pre-trained model
 train.py – Training script
 
 Run Instructions
-bash
+```bash
 Copy code
 cd CodeAlpha_HandwrittenCharacterRecognition
-streamlit run App.py
+streamlit run App.py```
 Requirements
 Common dependencies include:
 
