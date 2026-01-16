@@ -18,7 +18,7 @@ This task applies classification techniques to assess credit risk based on featu
 - `UCI_Credit_Card.csv` (included in the directory)
 
 ### Run Instructions
-```bash
+bash
 cd CodeAlpha_CreditScoringModel
 streamlit run App.py
 
