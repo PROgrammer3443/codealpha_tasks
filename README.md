@@ -21,16 +21,16 @@ This task applies classification techniques to assess credit risk based on featu
 cd CodeAlpha_CreditScoringModel
 streamlit run App.py
 
-Task 2: Emotion Recognition from Speech
-Directory: CodeAlpha_EmotionRecognitionFromSpeech
+## Task 2: Emotion Recognition from Speech
+**Directory**: CodeAlpha_EmotionRecognitionFromSpeech
 
-Objective
+### Objective
 Recognize human emotions (e.g., happy, angry, sad) from speech audio.
 
-Description
+### Description
 The application extracts audio features such as MFCCs and uses deep learning techniques to classify emotions from speech recordings.
 
-Required Dataset
+### Required Dataset
 You must manually download the dataset before running the application.
 
 Download Audio_Speech_Actors_01-24.zip from:
@@ -38,31 +38,31 @@ https://zenodo.org/records/1188976
 
 After downloading, extract the contents and place them in the directory structure expected by the application.
 
-Run Instructions
+### Run Instructions
 cd CodeAlpha_EmotionRecognitionFromSpeech
 streamlit run App.py
 
-Task 3: Handwritten Character Recognition
-Directory: CodeAlpha_HandwrittenCharacterRecognition
+## Task 3: Handwritten Character Recognition
+**Directory**: CodeAlpha_HandwrittenCharacterRecognition
 
-Objective
+### Objective
 Identify handwritten digits or characters using image processing and deep learning.
 
-Description
+### Description
 This task uses a convolutional neural network trained on handwritten digit data (MNIST). For optimal accuracy, digits should be written clearly with good spacing, consistent stroke thickness, and proper alignment, as the system performs best with clean and well-structured handwriting.
 
-Files
-App.py – Streamlit application
+### Files
+- App.py – Streamlit application
 
-mnist_model.h5 – Pre-trained model
+- mnist_model.h5 – Pre-trained model
 
-train.py – Training script
+- train.py – Training script
 
-Run Instructions
+### Run Instructions
 cd CodeAlpha_HandwrittenCharacterRecognition
 streamlit run App.py
 
-Requirements
+### Requirements
 Common dependencies include:
 
 Python 3.x
